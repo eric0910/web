@@ -406,21 +406,5 @@ body{
         height: 46vw;
        
     }
-    #price{
-        font-size: 2.5vw;
-        align-items: center;
-    }
-    #price span{
-        font-size: 2.vw;
-     
-    }
     
-    #price-amount button{
-        background-color: white;
-        height: 6vw;
-        width: 15vw;
-        color: green;
-        font-size: 2.9vw;
-     
-    }
 }
