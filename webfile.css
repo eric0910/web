@@ -376,11 +376,11 @@ body{
    
 }
 
-@media (max-width:480px) {
+@media (max-width:400px) {
     #balances-frame{
      
    
-        height: 10%;
+        height: 13%;
 
    
     }
@@ -418,8 +418,9 @@ body{
     #price-amount button{
         background-color: white;
         height: 4.3vw;
-        width: 10vw;
+        width: 15vw;
         color: red;
-        font-size: 2.2vw;
+        font-size: 2.6vw;
+     
     }
 }
