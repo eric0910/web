@@ -407,11 +407,11 @@ body{
        
     }
     #price{
-        font-size: 2.5vw;
+        font-size: 2.5em;
         align-items: center;
     }
     #price span{
-        font-size: 2.8vw;
+        font-size: 2.8em;
      
     }
     
@@ -420,6 +420,6 @@ body{
         height: 4.3vw;
         width: 10vw;
         
-        font-size: 2.5vw;
+        font-size: 2.5em;
     }
 }
