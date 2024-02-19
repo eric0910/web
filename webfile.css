@@ -344,11 +344,11 @@ body{
 }
 
 #price{
-    font-size: 2vw;
+    font-size: 2.8vw;
     align-items: center;
 }
 #price span{
-    font-size: 2.3vw;
+    font-size: 3vw;
     color: red;
 
 }
@@ -364,7 +364,7 @@ body{
     -o-border-radius: 18px;
     border: none;
     margin-right: 0vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 #price-amount button:hover{
@@ -411,16 +411,16 @@ body{
         align-items: center;
     }
     #price span{
-        font-size: 2.7vw;
+        font-size: 2.vw;
      
     }
     
     #price-amount button{
         background-color: white;
-        height: 6.4vw;
-        width: 16vw;
-        color: blue;
-        font-size: 2.9em;
+        height: 6vw;
+        width: 15vw;
+        color: green;
+        font-size: 2.9vw;
      
     }
 }
