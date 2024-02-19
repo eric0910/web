@@ -376,7 +376,7 @@ body{
    
 }
 
-@media (max-width:500px) {
+@media (max-width:900px) {
     #balances-frame{
      
    
@@ -417,7 +417,7 @@ body{
     
     #price-amount button{
         background-color: white;
-        height: 4.3vw;
+        height: 6vw;
         width: 15vw;
         color: red;
         font-size: 2.6vw;
