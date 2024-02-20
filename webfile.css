@@ -391,7 +391,7 @@ body {
 }
 
 nav {
-    margin: 0, 2vw;
+    margin: 0 2vw;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -420,6 +420,15 @@ nav #nav-images {
 }
 
 nav #nav-images a:hover,
+nav #nav-images a:focus {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav #nav-images a:hover,
 nav #nav-images a:focus,
 nav #new-image-names a:focus,
 nav #new-image-names a:hover {
@@ -431,7 +440,7 @@ nav #new-image-names a:hover {
     -o-transform: scale(0.7);
 }
 
-nav #new-image-names{
+nav #new-image-names {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
