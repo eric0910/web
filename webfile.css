@@ -421,11 +421,11 @@ nav #nav-images {
 
 nav #nav-images a:hover,
 nav #nav-images a:focus {
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 nav #nav-images a:hover,
@@ -438,6 +438,7 @@ nav #new-image-names a:hover {
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
     -o-transform: scale(0.7);
+    cursor: pointer;
 }
 
 nav #new-image-names {
@@ -459,8 +460,8 @@ nav #new-image-names {
 }
 
 .nav-images-resize {
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
 }
 
 @media (max-width:600px) {
