@@ -355,8 +355,8 @@ body{
 
 #price-amount button{
     background-color: white;
-    height: 3.3vw;
-    width: 9vw;
+    height: 4.3vw;
+    width: 11vw;
     border-radius: 18px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
@@ -364,7 +364,7 @@ body{
     -o-border-radius: 18px;
     border: none;
     margin-right: 0vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 #price-amount button:hover{
