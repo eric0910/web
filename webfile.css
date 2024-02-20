@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 840vh;
+    height: 243vh;
    
     
 
@@ -259,6 +259,7 @@ body {
     -o-border-radius: 15px;
     height: 45vw;
     margin: 1.6em 1.3em 0 1.3em;
+      
 }
 
 #oil-image {
