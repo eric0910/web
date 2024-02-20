@@ -391,7 +391,7 @@ body {
 }
 
 nav {
-    
+    margin: 0, 2vw;
     position: fixed;
     left: 0;
     bottom: 0;
