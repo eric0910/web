@@ -1,74 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Styles for the modal overlay */
-    .overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Styles for the modal content */
-    .modal {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/test.css">
 </head>
+
 <body>
+    <div id="main-frame">
+        <div id="head">
+            <header>
+                <h1>Let's <span>get started</span> with css project</h1>
+                <img src="images/money2.webp" alt="" id="image">
 
-<!-- Button to trigger the modal -->
-<button id="openModalBtn">Open Modal</button>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Tools</a></li>
 
-<!-- Modal overlay -->
-<div class="overlay" id="modalOverlay">
-  <!-- Modal content -->
-  <div class="modal">
-    <p>This is the modal content.</p>
-    <button id="closeModalBtn">Close</button>
-  </div>
-</div>
+                    </ul>
+                </nav>
 
-<script>
-  // JavaScript to handle button click and show/hide modal
-  const openModalBtn = document.getElementById('openModalBtn');
-  const closeModalBtn = document.getElementById('closeModalBtn');
-  const modalOverlay = document.getElementById('modalOverlay');
 
-  // Function to open the modal
-  function openModal() {
-    modalOverlay.style.display = 'flex';
-  }
 
-  // Function to close the modal
-  function closeModal() {
-    modalOverlay.style.display = 'none';
-  }
 
-  // Event listener for the "Open Modal" button
-  openModalBtn.addEventListener('click', openModal);
+            </header>
+        </div>
 
-  // Event listener for the "Close" button inside the modal
-  closeModalBtn.addEventListener('click', closeModal);
+        <div id="mainone">
+            <div id="main-div1">
+                <h3>Header1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
 
-  // Event listener to close the modal if the overlay is clicked
-  modalOverlay.addEventListener('click', function (event) {
-    if (event.target === modalOverlay) {
-      closeModal();
-    }
-  });
-</script>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+            </div>
+
+            <div id="main-div2">
+                <h3>Header2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa,. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa,. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+            </div>
+
+            <div id="main-div3">
+                <h3>Header3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationpa, soluta rem doloremque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footer-1">
+                <h3>Header Footer 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+            </div>
+            <div id="footer-2">
+                <h3>Header Footer 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa est doloribus, laborum
+                    blanditiis
+                    repudiandae laudantium! Atque, voluptas, porro exercitationem quaerat suscipit aperiam similique
+                    quibusdam laboriosam culpa, soluta rem doloremque?</p>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
 
 </body>
-</html>
+
+</html

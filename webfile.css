@@ -1,34 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 1.0em;
 }
 
-body{
+body {
     height: 100vh;
 
 }
 
 
-#head-image{
+#head-image {
     min-width: 98.8vw;
     height: 25vw;
-   
+
     margin: 0.2vw 0.4vw;
 }
 
-#mainframe{
+#mainframe {
     background-color: white;
     height: 100vh;
 }
 
-#balances-frame{
+#balances-frame {
     background-color: darkgreen;
     display: flex;
     justify-content: space-between;
     margin: 0.9em 1.3em 0 1.3em;
     /* height: auto; */
-  
+
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -39,18 +39,18 @@ body{
 }
 
 
-#balances-frame1{
-   margin-top: 1vw;
-   margin-bottom: 0.5vw;
-   margin-left: 5vw;
-  
+#balances-frame1 {
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    margin-left: 5vw;
+
     /* background-color: aqua; */
     color: black;
     display: flex;
-   
+
 }
 
-#balances-frame1 a{
+#balances-frame1 a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,20 +61,20 @@ body{
 
 }
 
-#withdraw-deposit-button{
+#withdraw-deposit-button {
     margin-top: 1vw;
     margin-bottom: 0.5vw;
     margin-right: 2.5vw;
-     /* background-color: aqua; */
-     color: black;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     padding-right: 3vw;
+    /* background-color: aqua; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 3vw;
 
 }
 
-#withdraw{
+#withdraw {
     border-radius: 18px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
@@ -88,17 +88,19 @@ body{
     border: 0.2px solid white;
 }
 
-#withdraw{
+#withdraw {
     cursor: pointer;
 }
-#withdraw:hover{
+
+#withdraw:hover {
     background-color: green;
 }
-#withdraw:active{
+
+#withdraw:active {
     background-color: rgba(255, 166, 0, 0.808);
 }
 
-#deposit{
+#deposit {
     border-radius: 18px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
@@ -114,23 +116,23 @@ body{
     font-weight: bold;
 }
 
-#deposit:hover{
+#deposit:hover {
     background-color: rgb(173, 216, 230, 0.6);
     cursor: pointer;
 }
 
-#balances-frame1 a p{
+#balances-frame1 a p {
     font-size: 3.2vw;
 }
 
-#balances-frame1 a h3{
+#balances-frame1 a h3 {
     font-size: 3.5vw;
-   padding-bottom: 2px;
-   padding-left: 3em;
-   font-weight: bold;
+    padding-bottom: 2px;
+    padding-left: 3em;
+    font-weight: bold;
 }
 
-#social-icons{
+#social-icons {
     margin: 3vw 8vw 0, 8vw;
     margin: 3vw 8vw;
     background-color: rgba(210, 105, 30, 0.493);
@@ -143,40 +145,42 @@ body{
     -o-border-radius: 10px;
 }
 
-#image-icons{
+#image-icons {
     margin-top: 1.5vw;
     display: flex;
     width: auto;
     justify-content: space-around;
-    
+
 }
-.img-icons{
+
+.img-icons {
     width: 8vw;
     height: 8vw;
 }
-#image-names{
-    margin: 1vw ;
+
+#image-names {
+    margin: 1vw;
     display: flex;
     justify-content: space-around;
     text-align: center;
     font-size: 3vw;
     font-weight: bold;
     color: black;
-    
+
 }
 
-#notifications1{
+#notifications1 {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-direction: row;
     background-color: whitesmoke;
     margin: 1.6em 1.3em 0 1.3em;
     border-radius: 18px;
     height: 18vw;
-   
+
 }
 
-#notifications{
+#notifications {
     margin: 0 0 0 1.3em;
     width: 21vw;
     border-radius: 18px;
@@ -186,7 +190,7 @@ body{
     -o-border-radius: 18px;
 }
 
-#messages{
+#messages {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -206,12 +210,16 @@ body{
         width: 10vw;
         height: 10vw;
     }
+
     50% {
-        width: 15vw; /* Increase size to 15vw at 50% of the animation */
+        width: 15vw;
+        /* Increase size to 15vw at 50% of the animation */
         height: 15vw;
     }
+
     100% {
-        width: 10vw; /* Decrease size back to 10vw at the end of the animation */
+        width: 10vw;
+        /* Decrease size back to 10vw at the end of the animation */
         height: 10vw;
     }
 }
@@ -219,16 +227,17 @@ body{
 #new-image {
     margin: 0.9em 1.3em 0.9em 1.3em;
     animation: scaleImage 2.5s infinite alternate;
-    /*4sduration,alternateforsmoothtransition*/-webkit-animation: scaleImage 3s infinite alternate;
+    /*4sduration,alternateforsmoothtransition*/
+    -webkit-animation: scaleImage 3s infinite alternate;
     -webkit-animation: scaleImage 2.5s infinite alternate;
 }
 
-#welfare-products h2{
+#welfare-products h2 {
     margin: 1.8em 1em;
     font-size: 5vw;
 }
 
-#advanced-oil-tier{
+#advanced-oil-tier {
     background-color: rgba(127, 255, 212, 0.829);
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -239,7 +248,7 @@ body{
     margin: 1.6em 1.3em 0 1.3em;
 }
 
-#advanced-oil-platform{
+#advanced-oil-platform {
     background-color: beige;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -250,7 +259,7 @@ body{
     margin: 1.6em 1.3em 0 1.3em;
 }
 
-#oil-image{
+#oil-image {
     width: 13vw;
     height: 13vw;
     border-radius: 8px;
@@ -261,14 +270,14 @@ body{
     margin-left: 1vw;
 }
 
-#oil-image-details{
+#oil-image-details {
     display: flex;
     margin: 0 0.3em 1em 0.7em;
     padding-top: 1em;
 
 }
 
-#oil-image-details-payments{
+#oil-image-details-payments {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.61);
@@ -282,78 +291,82 @@ body{
     margin: 0 10vw;
 }
 
-#money{
+#money {
     display: flex;
     justify-content: space-around;
 }
-#money-days{
+
+#money-days {
     display: flex;
     justify-content: space-around;
 
 }
-#price-amount{
+
+#price-amount {
     height: 4vw;
     display: flex;
     justify-content: space-between;
     margin: 2vw 4vw 0 4vw;
     align-items: center;
-    
+
 }
 
-#tier-days{
-   
+#tier-days {
+
     margin-left: 1.5em;
 }
 
-#tier-days h3{
+#tier-days h3 {
     font-size: 4vw;
 }
 
-#tier-days p{
+#tier-days p {
     font-size: 3.2vw;
     color: rgba(47, 79, 79, 0.836);
 }
-#p1{
-   margin-top: -0.25em;
+
+#p1 {
+    margin-top: -0.25em;
 }
 
-#tier-days p span{
+#tier-days p span {
     font-size: 3.5vw;
     color: darkslategrey;
     font-weight: bold;
 }
 
-#money{
-   margin-top: 2vw;
-   font-size: 2.3vw;
-   font-weight: bold;
-   color: green;
-   
+#money {
+    margin-top: 2vw;
+    font-size: 2.3vw;
+    font-weight: bold;
+    color: green;
+
 }
 
-#money-days{
+#money-days {
     margin-top: -2vw;
     font-size: 2.0vw;
 }
 
-#price-amount{
+#price-amount {
     /* background-color: blue; */
     margin-top: 2vw;
     margin-bottom: 1vw;
 
 }
 
-#price{
+#price {
     font-size: 3.5vw;
     align-items: center;
 }
-#price span{
+
+#price span {
     font-size: 4vw;
     color: red;
 
 }
 
-#price-amount button{
+#price-amount button {
     background-color: white;
     height: 5vw;
     width: 18vw;
@@ -367,44 +380,114 @@ body{
     font-size: 3.5vw;
 }
 
-#price-amount button:hover{
+#price-amount button:hover {
     background-color: rgba(250, 235, 215, 0.719);
     cursor: pointer;
 }
-#price-amount button:active{
+
+#price-amount button:active {
     background-color: rgba(70, 41, 5, 0.589);
-   
+
+}
+
+nav {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 184, 135, 0.952);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    justify-content: center;
+}
+
+nav #nav-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    transition: transform 2s ease-in-out;
+    -webkit-transition: transform 2s ease-in-out;
+    -moz-transition: transform 2s ease-in-out;
+    -ms-transition: transform 2s ease-in-out;
+    -o-transition: transform 2s ease-in-out;
+}
+
+nav #nav-images a:hover,
+nav #nav-images a:focus,
+nav #new-image-names a:focus,
+nav #new-image-names a:hover {
+    background-color: lightgreen;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+}
+
+nav #new-image-names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#new-image-names a {
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 300em;
+    color: black;
+    transition: transform 0.4s ease-in-out;
+    -webkit-transition: transform 0.4s ease-in-out;
+    -moz-transition: transform 0.4s ease-in-out;
+    -ms-transition: transform 0.4s ease-in-out;
+    -o-transition: transform 0.4s ease-in-out;
+}
+
+.nav-images-resize {
+    width: 9vw;
+    height: 9vw;
 }
 
 @media (max-width:600px) {
-    #balances-frame{
-     
-   
+    #balances-frame {
+
+
         height: 10%;
 
-   
-    }
-    #withdraw-deposit-button{
-        margin-top: 2.5vw;
-        margin-bottom: 3.5vw;
-         
 
     }
-    #balances-frame1{
+
+    #withdraw-deposit-button {
         margin-top: 2.5vw;
         margin-bottom: 3.5vw;
 
+
     }
-    #withdraw{
+
+    #balances-frame1 {
+        margin-top: 2.5vw;
+        margin-bottom: 3.5vw;
+
+    }
+
+    #withdraw {
         height: 5vw;
     }
-    #deposit{
+
+    #deposit {
         height: 5vw;
     }
-    #advanced-oil-tier{
-        
+
+    #advanced-oil-tier {
+
         height: 47vw;
-       
+
     }
-    
+
 }
