@@ -354,7 +354,7 @@ body{
 }
 
 #price-amount button{
-    background-color: white;
+    background-color: rgb(173, 33, 33);
     height: 4.5vw;
     width: 11vw;
     border-radius: 18px;
