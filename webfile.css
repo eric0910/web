@@ -235,7 +235,7 @@ body{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    height: 45vw;
+    height: 46vw;
     margin: 1.6em 1.3em 0 1.3em;
 }
 
@@ -354,7 +354,7 @@ body{
 }
 
 #price-amount button{
-    background-color: rgb(173, 33, 33);
+    background-color: white;
     height: 5vw;
     width: 18vw;
     border-radius: 18px;
@@ -385,25 +385,25 @@ body{
    
     }
     #withdraw-deposit-button{
-        margin-top: 2vw;
-        margin-bottom: 3vw;
+        margin-top: 2.5vw;
+        margin-bottom: 3.5vw;
          
 
     }
     #balances-frame1{
-        margin-top: 2vw;
-        margin-bottom: 3vw;
+        margin-top: 2.5vw;
+        margin-bottom: 3.5vw;
 
     }
     #withdraw{
-        height: 4.5vw;
+        height: 5vw;
     }
     #deposit{
-        height: 4.5vw;
+        height: 5vw;
     }
     #advanced-oil-tier{
         
-        height: 46vw;
+        height: 47vw;
        
     }
     

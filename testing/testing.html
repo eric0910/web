@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Styles for the modal overlay */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Styles for the modal content */
+    .modal {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Button to trigger the modal -->
+<button id="openModalBtn">Open Modal</button>
+
+<!-- Modal overlay -->
+<div class="overlay" id="modalOverlay">
+  <!-- Modal content -->
+  <div class="modal">
+    <p>This is the modal content.</p>
+    <button id="closeModalBtn">Close</button>
+  </div>
+</div>
+
+<script>
+  // JavaScript to handle button click and show/hide modal
+  const openModalBtn = document.getElementById('openModalBtn');
+  const closeModalBtn = document.getElementById('closeModalBtn');
+  const modalOverlay = document.getElementById('modalOverlay');
+
+  // Function to open the modal
+  function openModal() {
+    modalOverlay.style.display = 'flex';
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    modalOverlay.style.display = 'none';
+  }
+
+  // Event listener for the "Open Modal" button
+  openModalBtn.addEventListener('click', openModal);
+
+  // Event listener for the "Close" button inside the modal
+  closeModalBtn.addEventListener('click', closeModal);
+
+  // Event listener to close the modal if the overlay is clicked
+  modalOverlay.addEventListener('click', function (event) {
+    if (event.target === modalOverlay) {
+      closeModal();
+    }
+  });
+</script>
+
+</body>
+</html>
