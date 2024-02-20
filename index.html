@@ -278,7 +278,12 @@
             </div>
             <div id="price-amount">
                 <div id="price"><label for="">Price(KES): <span>25,000</span></label></div>
-                <div><button type="submit" id="firstInvestbtn" onclick="display()">Invest</button></div>
+                <div><button type="submit" id="display">Invest</button>
+                <script>
+                    document.getElementById("display").addEventListener("click", function (){
+                        window.location.href="otherpage.html";
+                    });
+                </script></div>
                 <!-- added an id in the invest buttom -->
             </div>
         </div>

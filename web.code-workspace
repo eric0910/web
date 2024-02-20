@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../javascript/web"
+		},
+		{
+			"name": "web",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web",
+		"liveServer.settings.port": 5501
+	}
+}
