@@ -419,7 +419,7 @@ nav {
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgba(222, 184, 135, 0.952);
+    background-color: rgba(255, 0, 0, 0.555);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -515,7 +515,6 @@ nav #new-image-names {
     }
 
     #advanced-oil-tier {
-
         height: 47vw;
 
     }
