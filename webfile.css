@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 215vh;
+    height: 212vh;
    
     
 
@@ -419,7 +419,7 @@ nav {
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgba(60, 255, 0, 0.555);
+    background-color: rgba(222, 184, 135, 0.849);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
